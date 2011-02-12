@@ -1,0 +1,26 @@
+package be.tbs.compilers.symboltable;
+
+import be.tbs.compilers.parser.nodes.Type;
+
+public class VarSymbol extends Symbol {
+
+	/**
+	 * Represents the value of the Symbol
+	 * 
+	 */
+	private String fValue;
+	
+	public VarSymbol(String name, Type type, String value) {
+		super(name, type);
+		fValue = value;
+	}
+	
+	public String getValue() {
+		return fValue;
+	}
+	
+	public void setValue(String value) {
+		fValue = value;
+	}
+	
+}

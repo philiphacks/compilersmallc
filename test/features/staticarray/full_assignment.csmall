@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	int a[5] = {0, 8, 18, 3, 4};
+	printf("Array Declaratie\n");
+	printf("int a[5] = {0, 8, 18, 3, 4}; \n\n");
+	printf("Full array assignment int b[5] = a \n");
+	int b[5] = a;
+	printf("a[2] = %i | b[2] = %i \n", a[2], b[2]);	
+
+	return 0;
+}

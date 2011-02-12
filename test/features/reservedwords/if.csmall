@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	int a = 3;
+	int b = 2;
+	if ((a > b) && (b == 2)) {
+		printf("a is groter dan b en b = 2\n");
+	} else {
+		printf("a is kleiner dan b\n");
+	}
+	return 0;
+}

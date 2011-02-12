@@ -1,0 +1,13 @@
+typedef int getal;
+typedef getal nummer;
+typedef nummer cijferkes;
+typedef cijferkes integer;
+
+int main() {
+	int b = 0;
+	getal c = 0;
+	nummer d = 0;
+	cijferkes e = 5;
+	integer f = 10;
+	return 0;
+}

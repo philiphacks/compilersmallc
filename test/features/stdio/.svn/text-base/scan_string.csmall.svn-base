@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+	char a[5];
+	printf("Scan string.\n");
+	scanf("%s", a);
+	printf("Ingelezen String: %s", a);
+	return 0;
+}

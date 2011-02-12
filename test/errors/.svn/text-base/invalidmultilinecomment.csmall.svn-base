@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	int a = 3;
+	/*
+	multiline comment enzo
+	
+	int b = 3;
+	if (b == 3) {
+		return 1;
+	}
+	return 0;
+}

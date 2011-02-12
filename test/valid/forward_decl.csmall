@@ -1,0 +1,10 @@
+void f();
+
+void f() {
+	int a = 5;
+}
+
+int main() {
+	f();
+	return 0;
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	int ikbeneengetal = 100;
+	printf("Start\n");
+	while (ikbeneengetal > 0) {
+		ikbeneengetal = ikbeneengetal - 1;
+		if (ikbeneengetal == 90) {
+			break;
+			printf("In IF");
+		} else {
+			printf("In ELSE");
+		}
+		printf("Getal: %i\n",ikbeneengetal);
+	}
+	printf("Einde %i\n",ikbeneengetal);
+	return 0;
+}

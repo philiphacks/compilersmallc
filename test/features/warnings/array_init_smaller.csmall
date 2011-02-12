@@ -1,0 +1,4 @@
+int main() {
+	int myArray[10] = {0,1,2,3};
+	return 0;
+}

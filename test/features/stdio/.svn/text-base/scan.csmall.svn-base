@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+	int a = 0;
+	float b = 0.0;
+	char c = 'c';
+
+	printf("Geef integer in: ");
+	scanf("%i", a);
+	printf("Integer ingelezen: %i \n\n", a); 
+
+	printf("Geef float in: ");
+	scanf("%f", b);
+	printf("Float ingelezen: %f \n\n", b); 
+
+	printf("Geef character in: ");
+	scanf("%c", c);
+	printf("Character ingelezen: %c", c); 
+	return 0;
+}

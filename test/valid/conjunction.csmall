@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	int b = 3;
+	int c = b;
+	if ((b == 3) && (b == c)) {
+		printf("De if conditie is true!");
+	} else {
+		printf("De if conditie is false!");
+	}
+	return 0;
+}

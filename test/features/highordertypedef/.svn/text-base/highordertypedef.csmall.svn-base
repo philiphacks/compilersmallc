@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+typedef int getal;
+typedef getal cijfers;
+typedef cijfers integer;
+
+int main() {
+	getal a = 5;
+	cijfers b = 3;
+	integer c = 4;
+
+	printf("Getal a = %i \n", a);
+	printf("Cijfer b = %i \n", b);
+	printf("Integer c = %i", c);
+	return 0;
+}

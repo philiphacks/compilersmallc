@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+	// Single Line Comment
+	// printf("Dit wordt normaal niet geprint");
+	printf("Dit wordt wel geprint");
+	// printf("Dit weer niet!");
+	return 0;
+}

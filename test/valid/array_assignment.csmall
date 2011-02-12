@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+	int a[3];
+	a[0] = 5;
+	printf("a[0] = %i", a[0]);
+	return 0;
+}

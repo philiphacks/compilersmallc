@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+	int getal = 2;
+	if (getal == 1) {
+		printf("True\n");
+	}
+	printf("Einde\n");
+	return 0;
+}

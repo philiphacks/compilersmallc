@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	const int a = 5;
+	const float b = 3.21;
+	const char c = 'c';
+	
+	printf("Constant int a = %i \n", a);
+	printf("Constant float b = %f \n", b);
+	printf("Constant char c = %c", c);
+
+	return 0;
+}

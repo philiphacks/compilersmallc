@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int getInt() {
+	return 3;
+}
+
+int main() {
+	printf("Dit is een print!");
+	printf("%i", getInt());
+	return 0;
+}

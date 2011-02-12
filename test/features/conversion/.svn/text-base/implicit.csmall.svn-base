@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	printf("Conversion naar Greater Type\n");
+	float a = 3;
+	float b = 'b';
+	printf("a = %f \n", a);
+	printf("b = %f \n", b);
+
+	printf("Conversion naar Smaller Type\n");
+	int c = 5.432;
+	printf("c = %i \n", c);	
+
+	return 0;
+}

@@ -1,0 +1,6 @@
+int main() {
+	int een = 1;
+	float twee = 2;
+	char drie = '3';
+	return 0;
+}

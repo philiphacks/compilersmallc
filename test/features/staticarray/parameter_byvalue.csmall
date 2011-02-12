@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void drukAf(char a[9]) {
+	printf("%s", a);
+}
+
+int main() {
+	char a[9] = {'C', 'o', 'm', 'p', 'i', 'l', 'e', 'r', 's'};
+	printf("Print inhoud van array a af...\n\n");
+	drukAf(a);
+	return 0;
+}

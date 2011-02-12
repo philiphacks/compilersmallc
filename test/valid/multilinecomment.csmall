@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	int a = 3;
+	int b = 6;
+	int c = 9;
+	/**
+	* a heeft de waarde 3
+	* b heeft de waarde 6
+	* c heeft de waarde 9
+	*/
+	return 0;
+}

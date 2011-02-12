@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+	int a[5] = {12, 553, 32, 21, 55};
+	printf("%s", a);
+	return 0;
+}

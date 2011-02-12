@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+typedef int getal;
+
+int main() {
+	getal a = 5;
+	printf("a = %i\n", a);
+	return 0;
+}

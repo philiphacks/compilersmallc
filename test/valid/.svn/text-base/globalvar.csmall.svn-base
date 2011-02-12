@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int a = 2+4*2;
+const int b = 3;
+
+void printA() {
+	printf("Ik print nu de waarde van a: %i \n", a);
+}
+
+int main() {
+	int c = a;
+	printf("%15 De waarde van variabele b: %i \n", b);
+	printA();
+	printf("Ik verhoog de waarde van de globale variabele a met 1. \n");
+	a = a+1;
+	printA();
+	return 0;
+}

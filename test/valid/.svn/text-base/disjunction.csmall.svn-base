@@ -1,0 +1,8 @@
+int main() {
+	int a = 3;
+	int b = 8;
+	if ((a == 3) || (b == 5)) {
+		return 2;
+	}
+	return 0;
+}

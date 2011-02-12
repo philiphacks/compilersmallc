@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int geefVijf() {
+	return 5;
+}
+
+float geefDrie() {
+	return 3.5;
+}
+
+char geefChar() {
+	return 'c';
+}
+
+int main() {
+	int a = geefVijf();
+	float b = geefDrie();
+	char c = geefChar();
+	printf("int a = %i || float b = %f || char c = %c", a, b, c);
+	return 0;
+}

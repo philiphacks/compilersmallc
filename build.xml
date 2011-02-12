@@ -1,0 +1,64 @@
+<project name="Compilers" default="jar">
+	
+	<property name="src.dir" value="src" />
+	<property name="build.dir" value="bin" />
+	<property name="lib.dir" value="lib" />
+	<property name="dist.dir" value="dist" />	
+	<property name="antlr.jar" location="lib/antlr-3.2.jar" />
+	<property name="junit.jar" location="lib/junit-4.8.1.jar" />
+	
+	<path id="classpath">
+		<pathelement location="${build.dir}" />
+		<pathelement location="${antlr.jar}" />
+		<pathelement location="${junit.jar}" />
+	</path>
+
+	<target name="init">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${lib.dir}" />
+		<mkdir dir="${dist.dir}" />
+	</target>
+
+	<target name="compile" depends="init">
+		<javac srcdir="${src.dir}" destdir="${build.dir}">
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile">
+		<jar destfile="${dist.dir}/Compilers.jar" basedir="${build.dir}">
+			<zipfileset dir="${build.dir}" prefix="" />
+			<zipfileset src="${antlr.jar}" />
+			<manifest>
+				<attribute name="Main-Class" value="be.tbs.compilers.Compiler" />
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="c2p" depends="jar">
+		<java jar="${dist.dir}/Compilers.jar" fork="true">
+			<arg value="${input}" />
+		</java>		
+	</target>
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+	
+	<target name="unittests" depends="jar">
+		<junit printsummary="yes">
+			<classpath>
+				<path refid="classpath"/>
+				<path location="${dist.dir}/Compilers.jar"/>
+			</classpath>
+			<batchtest fork="yes">
+				<fileset dir="${src.dir}">
+					<include name="be/tbs/compilers/test/features/**/*.java" />
+					<exclude name="**/Scan*.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>				
+
+</project>

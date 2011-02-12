@@ -1,0 +1,67 @@
+10
+
+dir
+193
+svn://fenix.cmi.ua.ac.be/compilers2/ginphi/Compilers/test/features
+svn://fenix.cmi.ua.ac.be/compilers2/ginphi
+
+
+
+2010-01-09T21:59:30.881640Z
+191
+p061649
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+33830176-c301-11de-9fd8-b779080784b2
+
+basictypes
+dir
+
+comments
+dir
+
+constants
+dir
+
+conversion
+dir
+
+functions
+dir
+
+globalvar
+dir
+
+highordertypedef
+dir
+
+noinitialization
+dir
+
+reservedwords
+dir
+
+return
+dir
+
+staticarray
+dir
+
+stdio
+dir
+
+warnings
+dir
+

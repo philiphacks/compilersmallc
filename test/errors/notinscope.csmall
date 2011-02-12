@@ -1,0 +1,9 @@
+int main() {
+	int a = 2, b = 3;
+	if (a < b) {
+		int c = 4;
+	}
+	a = 3;
+	c = 2;
+	return 0;
+}

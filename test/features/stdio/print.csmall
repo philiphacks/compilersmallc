@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+	printf("Dit is het compilerproject van Philip en Gino.");
+	return 0;
+}

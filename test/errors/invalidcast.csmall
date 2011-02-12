@@ -1,0 +1,5 @@
+int main() {
+	int a = 5;
+	float b = (void)a;
+	return 0;
+}

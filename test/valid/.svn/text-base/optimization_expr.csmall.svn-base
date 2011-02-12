@@ -1,0 +1,11 @@
+int main() {
+	const float a = -5.2;
+	const int b = 5;
+	int c = !24;
+	float d = 45.78;
+	printf("const float a: %f\n",a);
+	printf("const int b: %i\n",b);
+	printf("int c: %i\n",c);
+	printf("float d: %f\n",d);
+	return 0;
+}

@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+	/ dit is slechte commentaar.
+	return 0;
+}

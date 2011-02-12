@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int bar() {
+	return 5+(4+2)*2;
+}
+
+int main() {
+	int foo = bar()/2;
+	printf("Foo variable is: %i",foo); // Should be 8
+	return 0;
+}

@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+typedef int getalleke;
+
+int main() {
+	int a, b, c;
+	a = 3;
+	// b = a;
+	b = 2;
+	// c = b;
+	c = 2;
+	getalleke d = 3;
+	int e = 10;
+	int f = 549;
+	while (f > 500) {
+		// f = f-1;
+		f = 499;
+	}
+	if (f == 499) {
+		e = 5;
+	}
+	if (d > 5) {
+		d = 3;
+	}
+	while (f > 499) {
+		if (f == 100) {
+			return f;
+		}
+		//f = f-1;
+		f = 100;
+	}
+	return 0;
+}

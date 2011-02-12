@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	float a;
+	float b = 3.8;
+	float c = -5.2;
+
+	printf("Uninitialized float: %f \n", a);
+	printf("Positive float: %f \n", b);
+	printf("Negative float: %f", c);
+	return 0;
+}

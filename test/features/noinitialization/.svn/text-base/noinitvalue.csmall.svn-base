@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	int a;
+	float b;
+	char c;
+	printf("int: %i \n", a);
+	printf("float: %f \n", b);
+	printf("char: %c \n", c);
+	return 0;
+}

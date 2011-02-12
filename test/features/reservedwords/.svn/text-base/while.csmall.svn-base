@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+	int a = 0;
+	
+	printf("Start WHILE Statement.\n");
+	while (a <= 9) {
+		printf("a = %i \n", a);
+		a = a+1;
+		if (a == 3) {
+			while (a < 8) {
+				printf("a = %i \n", a);
+				a = a+1;
+			}
+		}
+	}
+	printf("Einde WHILE Statement.");
+
+	return 0;
+}

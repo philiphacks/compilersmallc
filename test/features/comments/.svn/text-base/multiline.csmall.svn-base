@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	/*
+		Multi 
+		Line 
+		Comments!
+	*/
+	/* printf("Dit wordt normaal niet geprint");
+	printf("Dit wordt niet geprint"); */
+	printf("Dit wordt geprint!");
+	return 0;
+}

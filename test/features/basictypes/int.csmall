@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	int a;
+	int b = 3;
+	int c = -5;
+
+	printf("Uninitialized int: %i \n", a);
+	printf("Positive int: %i \n", b);
+	printf("Negative int: %i", c);
+	return 0;
+}

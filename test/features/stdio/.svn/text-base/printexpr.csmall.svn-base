@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+	printf("Expressie (5*5)+4*(3+2) = %i", (5*5)+4*(3+2));
+	return 0;
+}

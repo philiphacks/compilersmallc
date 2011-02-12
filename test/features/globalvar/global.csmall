@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int a = 5;
+const int b = 3;
+float c = 3.4124;
+const char d = 'd';
+
+int main() {
+	printf("Global int a = %i \n", a);
+	printf("Global const int b = %i \n", b);
+	printf("Global float c = %f \n", c);
+	printf("Global char d = %c \n", d);
+
+	return 0;
+}

@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	printf("Explicit Cast: Float -> Int \n");
+	float a = 3.532;
+	int b = (int)a;
+
+	printf("float a = %f \n", a);
+	printf("int b = (int)a \n");
+	printf("b = %i", b);
+	return 0;
+}

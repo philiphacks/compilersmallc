@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+	int a = 3;
+	// a is 3
+	int b = 6;
+	// b is 6;
+	int c = 9;
+	// c heeft de waarde 9 gekregen en heeft als type integer
+	return 0;
+}

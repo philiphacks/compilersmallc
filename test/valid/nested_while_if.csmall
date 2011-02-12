@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+	int a = 2000;
+	int b = 3;
+	float c = 3.5e10;
+	int d = 1;
+	int e = 5;
+	int f = 6;
+	int g = 100;
+	while (a > 0) {
+		while (b < 1000) {
+			while (c < 4.5e100) {
+				if (d == 1) {
+					e = e+1;
+				} else if (b == 3;) {
+					f = f+2;
+				} else {
+					g = g-100;
+				}
+				c = c-10;
+			}
+			b = b-10;
+		}
+		a = a - 10;
+	}
+	return e;
+}

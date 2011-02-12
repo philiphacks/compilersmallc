@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+	int a[5] = {12, 8, 99, 3, 156};
+	printf("a[2] = %i", a[2]);
+	return 0;
+}

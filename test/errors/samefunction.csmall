@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int myFunction() {
+	return 1;
+}
+
+float myFunction() {
+	return 2.5;
+}
+
+int main() {
+	printf("%i", 5);
+	return 0;
+}

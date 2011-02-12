@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+	printf("Deze \t zin \t wordt \t gescheiden \t door \t tabs. \");
+	return 0;
+}

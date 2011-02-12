@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+void function1() {
+	printf("Dit is een functie.\n");
+}
+
+int function2(int a, int b) {
+	if (a >= b) {
+		printf("a is groter dan of gelijk aan b\n");
+	} else {
+		printf("a is kleiner dan b\n");
+	}
+	return 0;
+}
+
+float function3(float a) {
+	if (a >= 0) {
+		printf("a is positief\n");
+	} else {
+		printf("a is negatief\n");
+	}
+	return 0.0;
+}
+
+int main() {
+	float a = 3.4;
+	function1();
+	function2(2, 3);
+	function3(a);
+	return 0;
+}
