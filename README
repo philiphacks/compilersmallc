@@ -1,0 +1,15 @@
+Project Compilers
+by Philip De Smedt & Gino Wuytjens
+
+Compiling
+
+Using the c2p shell command, it's possible to compile a SmallC source file. The execution of the compilation process is powered by Ant. In the Ant build file build.xml, there's two executable targets, c2p and unittests. The c2p target will execute the compiler. The target unittests provides some regression tests on the compiler features.
+
+Grammar
+
+The grammar was build using the ANTLR Tools. You can find it in the subdirectory ./grammar
+
+Class Diagram
+
+An overview of the compiler can be found in the class diagram.
+
